@@ -1,0 +1,51 @@
+
+public class Rectangle {
+
+	double garums;
+	double platums;
+	
+	public boolean isSquare() {
+		
+		if(garums == platums)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+		
+	}
+	public double area(double laukums) {
+		return garums*platums;
+		
+	}
+	
+	public double perimeter(double perim)
+	{
+		
+		return (garums+platums)*2;
+		
+	}
+	@Override
+	public String toString() {
+		return "Rectangle [garums=" + garums + ", platums=" + platums + "]";
+	}
+	public Rectangle() {
+		
+	}
+	public Rectangle(double gar, double plat) {
+		super();
+		garums = gar;
+		platums = plat;
+	}
+	public Rectangle(double h)
+	{
+		garums = h;
+		platums = h;
+	}
+	
+	
+	
+	
+}

@@ -1,0 +1,16 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Rectangle r1 = new Rectangle(5,4);
+		r1.isSquare();
+		r1.area();
+		r1.perimeter();
+		System.out.println(r1);
+		
+		
+
+	}
+
+}

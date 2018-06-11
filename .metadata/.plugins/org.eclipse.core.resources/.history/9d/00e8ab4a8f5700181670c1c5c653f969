@@ -1,0 +1,49 @@
+import java.util.Scanner;
+
+public class HumanPlayer implements Player {
+
+	private Scanner scanner;
+	private Board board;
+	
+	public HumanPlayer(Board brd) {
+		scanner = new Scanner(System.in);
+		board=brd;
+	}
+	
+	@Override
+	public int[] makeMove() {
+		
+		System.out.println("Your move");
+		System.out.println("Input row (0-2):");
+		int row = scanner.nextInt();
+		System.out.println("Input column (0-2):");
+		int column = scanner.nextInt();
+		
+		while(!(row>= 0&&row<=2&& column>=0 &&column<=2) &&!board.isMoveValid(row, column)) {
+			
+			if(!board.isMoveValid(row, column)) {
+				System.out.println("This cell is already taken");
+				
+			}
+			else {
+				System.out.println("Comon bro, 0-2!!!!");
+			}
+			
+			System.out.println("Input row (0-2):");
+			row = scanner.nextInt();
+			System.out.println("Input column (0-2):");
+			column = scanner.nextInt();
+			
+			
+			//lauciņš var būt vai nebūt aizpildīts
+			//boolean isValid = board.isMoveValid(row, column);
+			
+		}
+		
+			
+		return new int[] {row,column};
+	}
+
+	
+	
+}

@@ -1,0 +1,16 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Board board = new Board();
+		board.printGameBoard();
+		System.out.println();
+		board.makeMove("X", 0, 1);
+		board.printGameBoard();
+		
+		System.out.println(board.isMoveValid(0, 1));
+		System.out.println(board.isMoveValid(1, 0));
+
+	}
+
+}

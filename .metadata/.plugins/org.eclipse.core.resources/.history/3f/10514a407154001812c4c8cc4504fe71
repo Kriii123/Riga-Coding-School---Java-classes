@@ -1,0 +1,26 @@
+
+public class Day7 {
+	
+	public static String combineStrings(String simbols, String simbols2,String simbols3,String simbols4)
+	{
+		return simbols + simbols2+simbols3+simbols4;
+	}
+	public static String combineStrings(String simbols, String simbols2,String simbols3)
+	{
+		return simbols + simbols2+simbols3;
+	}
+	public static String combineStrings(String simbols, String simbols2)
+	{
+		return simbols + simbols2;
+	}
+
+	public static void main(String[] args) {
+		
+		
+		System.out.println(combineStrings("AA","CC", "DDD","EEE"));
+		System.out.println(combineStrings("AA","CC", "DDD"));
+		System.out.println(combineStrings("AA","CC"));
+
+	}
+
+}

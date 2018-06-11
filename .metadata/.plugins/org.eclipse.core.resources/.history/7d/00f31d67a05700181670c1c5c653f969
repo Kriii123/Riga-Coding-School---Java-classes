@@ -1,0 +1,35 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Board board = new Board();
+		HumanPlayer p1 = new HumanPlayer(board);
+		ComputerPlayer c = new ComputerPlayer(board);
+		
+		
+		board.printGameBoard();
+		
+		int[] coordinates = p1.makeMove();
+		board.makeMove("X", coordinates[0], coordinates[1]);
+		board.printGameBoard();
+		coordinates = c.makeMove();
+		board.makeMove("O", coordinates[0], coordinates[1]);
+		board.printGameBoard();
+		
+		coordinates = p1.makeMove();
+		board.makeMove("X", coordinates[0], coordinates[1]);
+		board.printGameBoard();
+		coordinates = c.makeMove();
+		board.makeMove("O", coordinates[0], coordinates[1]);
+		board.printGameBoard();
+		
+		coordinates = p1.makeMove();
+		board.makeMove("X", coordinates[0], coordinates[1]);
+		board.printGameBoard();
+		coordinates = c.makeMove();
+		board.makeMove("O", coordinates[0], coordinates[1]);
+		board.printGameBoard();
+
+	}
+
+}

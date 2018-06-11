@@ -1,0 +1,9 @@
+1526313826649	Extract method 'ColumnAndRowInRange'
+1526402250062	Rename field 'humanPlayer'
+1526402264254	Rename field 'computerPlayer'
+1526404341734	Copy compilation units
+1526404397070	Delete element
+1526404563413	Move compilation units
+1526404621728	Move compilation units
+1526404700421	Rename package 'players'
+1526404753359	Rename package 'lv.rigacodin.school.players'

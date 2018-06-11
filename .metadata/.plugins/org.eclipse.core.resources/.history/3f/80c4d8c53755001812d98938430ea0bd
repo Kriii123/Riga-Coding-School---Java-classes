@@ -1,0 +1,18 @@
+
+public class Square extends Rectangle {
+	
+	public Square(double side) {
+		garums= side;
+		platums=side;
+	}
+	
+	public void test() {
+		boolean isSquare = super.isSquare(); //super lieto lai norādītu, ka metode jāizsauc no vecāku klases
+		double area = super.area();
+		double perimeter = super.perimeter();
+		
+		double randomSum = garums+platums;
+		
+	}
+
+}

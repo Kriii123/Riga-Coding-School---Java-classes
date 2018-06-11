@@ -1,0 +1,18 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Rectangle r1 = new Rectangle(5,4);
+		r1.isSquare();
+		r1.area();
+		r1.perimeter();
+		System.out.println(r1);
+		System.out.println("Is it square? " + r1.isSquare());
+		System.out.println("Field is " + r1.area() + " and perimeter is " + r1.perimeter());
+		
+		
+
+	}
+
+}
