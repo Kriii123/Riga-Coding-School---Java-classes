@@ -1,6 +1,0 @@
-package lv.rigacoding.school;
-
-public enum GameStatus {
-	PLAYER_1_WINS, PLAYER_2_WINS, DRAW, GAME_ONGOING;
- 
-}

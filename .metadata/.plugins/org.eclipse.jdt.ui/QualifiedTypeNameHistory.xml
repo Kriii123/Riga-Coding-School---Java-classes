@@ -20,8 +20,8 @@
 <fullyQualifiedTypeName name="java.util.Random"/>
 <fullyQualifiedTypeName name="ComputerPlayer"/>
 <fullyQualifiedTypeName name="Game"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="GameStatus"/>
 <fullyQualifiedTypeName name="HumanPlayer"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>

@@ -1,9 +1,0 @@
-package lv.rigacoding.school;
-
-public interface Player {
-	
-	//0-rinda, 1-kolonna
-	
-	int[] makeMove();
-
-}
